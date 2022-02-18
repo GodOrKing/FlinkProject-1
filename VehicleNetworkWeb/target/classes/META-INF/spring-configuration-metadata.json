@@ -1,0 +1,113 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "cn.itcast.dataservice.config.druid.DataSourceProperties",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.commonconfig",
+      "type": "cn.itcast.dataservice.config.druid.DataSourceCommonProperties",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceCommonProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource.commonconfig",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.commonconfig.filters",
+      "type": "java.lang.String",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceCommonProperties"
+    },
+    {
+      "name": "spring.datasource.commonconfig.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceCommonProperties",
+      "defaultValue": 10
+    },
+    {
+      "name": "spring.datasource.commonconfig.mapper-locations",
+      "type": "java.lang.String",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceCommonProperties"
+    },
+    {
+      "name": "spring.datasource.commonconfig.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceCommonProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.commonconfig.max-open-prepared-statements",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceCommonProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.commonconfig.max-wait",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceCommonProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.commonconfig.min-evictable-idle-time-millis",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceCommonProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.commonconfig.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceCommonProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.commonconfig.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceCommonProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.commonconfig.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceCommonProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.commonconfig.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceCommonProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.commonconfig.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceCommonProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.commonconfig.time-between-eviction-runs-millis",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceCommonProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.commonconfig.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceCommonProperties"
+    },
+    {
+      "name": "spring.datasource.hive",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.mysql",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "cn.itcast.dataservice.config.druid.DataSourceProperties"
+    }
+  ],
+  "hints": []
+}
